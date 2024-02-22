@@ -3,3 +3,15 @@ h1 {color: green;
     font-family: Arial, Helvetica, sans-serif;}
 
 p {color: cadetblue;}
+
+
+/* grouped slector, will style all h1s and ps*/
+
+
+p a {color: darkseagreen;} /* its only going to style the link to google, its called a decsendeant slector this styles a inside of a p tag*/
+
+/* this styles the id */
+#secondparagraph {color: chartreuse;}
+
+/* this styles a class */
+.purpletext {color: purple;}
