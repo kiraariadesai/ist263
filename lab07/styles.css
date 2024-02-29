@@ -1,6 +1,10 @@
 
-body{background-color: #a8f0eb; color: #000000;
+
+
+body{background-color: #a8f0eb; color: #ffffff;
 font-family: 'Times New Roman', Times, serif;}
+
+h1{color: black;}
         
 .box {background-color: #ffff; border: 5px solid pink; padding: 30px; 
 margin: 30px;}
