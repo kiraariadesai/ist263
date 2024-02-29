@@ -2,12 +2,12 @@
 body{background-color: #80bfaa; color: #ffffff;
 font-family: 'Times New Roman', Times, serif;}
 
-    nav a{background-color: #000000;}
+nav {background-color: #000000;}
+a:visited {color: #c0a6e3;}
+a:hover {background-color:#ffffff;}
 
 h1{color: #000000;}
         
 .box {background-color: #ffff; border: 5px solid pink; padding: 30px; 
 margin: 30px;}
 
-a:visited {color: #c0a6e3;}
-nav a:hover {background-color:#ffffff;}
