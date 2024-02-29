@@ -1,0 +1,10 @@
+
+body{background-color: #a8f0eb; color: #000000;
+font-family: 'Times New Roman', Times, serif;}
+        
+.box {background-color: #ffff; border: 5px solid pink; padding: 30px; 
+margin: 30px;}
+
+/* from now on u will use hexidecimal colors */
+a:visited {color: #c0a6e3;}
+/*pseudo selector use the colon*/
