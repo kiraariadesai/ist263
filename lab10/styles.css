@@ -24,3 +24,5 @@ background-color: #000000;}
 .flexbox1{display: flex; flex: 3; justify-content: space-between; margin: 30px;}
 .aside{background-color: #c0a6e3; border-radius: 15px; flex: 1; padding: 20px;}
 .flexbox2{display: flex; margin: 50px;}
+
+.linkedin,.banner{max-width: 100%;}
