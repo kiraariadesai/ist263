@@ -27,6 +27,5 @@ background-color: #000000;}
 .flexbox2{display: flex; margin: 50px;}
 
 .banner{max-width: 100%;}
-.row2{max-width:100%}
 .maps{max-width: 100%;}
 .row2{flex-wrap: wrap;}
