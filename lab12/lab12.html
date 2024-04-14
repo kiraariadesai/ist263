@@ -18,13 +18,21 @@
          #planetinfo {padding: 100px;}
          #thumbnails {width: 840px; margin: auto; padding-top: 20px; clear: both;} 
          /* ^^ margin auto is centering this container */
-         #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb 
-         {display: none;}
+         #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb {display: none;}
      </style>
 
 
      <script>
         function planetsOff() {
+            document.getElementById('mercury').style.display = 'none';
+            document.getElementById('venus').style.display = 'none';
+            document.getElementById('earth').style.display = 'none';
+            document.getElementById('mars').style.display = 'none';
+            document.getElementById('jupiter').style.display = 'none';
+            document.getElementById('saturn').style.display = 'none';
+            document.getElementById('uranus').style.display = 'none';
+            document.getElementById('neptune').style.display = 'none';
+
             document.getElementById('mercurythumb').style.display = 'none';
             document.getElementById('venusthumb').style.display = 'none';
             document.getElementById('earththumb').style.display = 'none';
