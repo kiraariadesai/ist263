@@ -14,21 +14,8 @@
     
         nav{display: flex; justify-content: space-between; margin-right: 20px;}
         
-        .hometop {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        overflow:hidden; /* Allow horizontal scrolling if needed */}
-
-        .column {
-        flex: 0 0 auto; /* Prevent flex items from growing */
-        width: 33.33%; /* Each image takes up 1/3 of the container */
-        max-width: calc(100vw / 3); /* Set maximum width based on viewport width */
-        overflow: hidden; /* Hide overflow */}
-
-        .column img {
-        width: 100%;
-        height: auto;}
+        .hometop {display: flex;}
+        .column {flex: 33.33%; padding: 5px; height: 300px;}
 
         .guide {
         position: absolute;
