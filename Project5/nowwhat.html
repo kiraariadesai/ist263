@@ -50,19 +50,21 @@
 
         .nowwhat1 {
         display: flex;
-        justify-content: center; 
+        justify-content: center; /* Center the images horizontally */
         }
 
         .column2 {
-        flex: 1; 
+        flex: 1; /* Each column takes up equal space */
         padding: 5px;
-        text-align: center; 
+        text-align: center; /* Center the image horizontally within each column */
         }
 
         .column2 img {
-        max-width: 100%; 
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; /* Ensure all images fill their containers */
+        height: 100%; /* Ensure all images fill their containers */
+        object-fit: cover; /* Maintain aspect ratio and cover the container */
         }
+
 
 
         .nowwhat2{display: flex;}
