@@ -55,6 +55,19 @@
         font-size: 24px;
         color: #ffffff;}
 
+        .skip {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;}
+
+        .skip:focus {
+        position: static;
+        width: auto;
+        height: auto;}
+
         h1, p {text-align: center; margin: 0 auto; max-width: 500px;}
 
         /* Responsive styles */
@@ -70,6 +83,7 @@
             }
         }
     </style>
+    <a href="#main" class="skip">Skip to main content</a>
 </head>
 
 <body>
@@ -92,6 +106,9 @@
     <a href="nowwhat.html">NOW WHAT?</a>
     <a href="timetorevamp.html">TIME TO REVAMP</a>
 </nav>
+
+    <main id="main">
+
     <h1> Now that you know what you like here are some affordable and creative ways to find timeless pieces that match your style! Revamp the wardrobe. <br> </h1>
    <br>
 
