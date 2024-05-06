@@ -16,6 +16,7 @@
         
         .hometop {
         display: flex;
+        flex-wrap: wrap;
         }
 
         .column {
@@ -23,15 +24,15 @@
         padding: 0; 
         margin: 0; 
         overflow: hidden; 
-        display: flex; /* Nested flexbox to center the image */
+        display: flex; 
         justify-content: center;
         align-items: center;
         }
 
         .column img {
-        width: 100%; /* Ensure images fill the entire column width */
-        height: 100%; /* Ensure images fill the entire column height */
-        object-fit: cover; /* Maintain aspect ratio */
+        max-width: 100%;
+        height: auto; 
+        object-fit: cover; 
         }
 
         .guide {
@@ -44,13 +45,20 @@
         font-size: 24px;
         color: #ffffff;}
         
-        .homebottom {display: flex;}
+        .homebottom {display: flex; flex-wrap: wrap;}
         .column {flex: 33.33%; padding: 5px; position: relative; text-align: center;}
         
         h1, p {
         text-align: center;
         margin: 0 auto;
         max-width: 500px; }
+
+        @media only screen and (max-width: 600px) {
+            .column {
+                flex: 100%; 
+                padding: 5px;
+            }
+        }
     
     </style>
     </head>
