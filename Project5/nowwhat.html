@@ -14,8 +14,19 @@
     
         nav{display: flex; justify-content: space-between; margin-right: 20px;}
     
-        .hometop {display: flex;}
-        .column {flex: 33.33%; padding: 5px;}
+        .hometop {
+        display: flex;
+        flex-wrap: nowrap; /* Prevent wrapping */}
+
+        .column {
+        flex: 0 0 33.33%; /* Set flex basis to 33.33% */
+        padding: 5px;
+        box-sizing: border-box; /* Include padding in width */}
+
+        .column img {
+        width: 100%; /* Make images fill their respective containers */
+        height: auto; /* Maintain aspect ratio */}
+
 
         .guide {
         position: absolute;
