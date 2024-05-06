@@ -15,20 +15,23 @@
         nav{display: flex; justify-content: space-between; margin-right: 20px;}
         
         .hometop {
-        display: flex;
-    }
+        display: flex;}
 
         .column {
         flex: 1; /* Let each column grow to fill the available space */
         padding: 0; /* Remove padding to avoid extra spacing */
         margin: 0; /* Remove margin to avoid extra spacing */
         overflow: hidden; /* Ensure images don't overflow the column */
-    }
+        display: flex; /* Nested flexbox to center the image */
+        justify-content: center;
+        align-items: center;
+        }
 
         .column img {
-        width: 100%; /* Ensure images fill the entire column width */
-        height: auto; /* Maintain aspect ratio */
-    }
+        max-width: 100%; /* Ensure images fill the entire column width */
+        max-height: 100%; /* Ensure images fill the entire column height */
+        }
+
 
 
 
