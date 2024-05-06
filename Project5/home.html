@@ -16,16 +16,20 @@
         
         .hometop {
         display: flex;
-        flex-wrap: nowrap; /* Prevent wrapping */}
+        justify-content: space-between; /* Evenly distribute items */}
 
         .column {
-        flex: 0 0 33.33%; /* Set flex basis to 33.33% */
+        flex: 0 0 30%; /* Adjust flex basis to create equal widths with spacing */
         padding: 5px;
-        box-sizing: border-box; /* Include padding in width */}
+        box-sizing: border-box; /* Include padding in width */
+        text-align: center; /* Center the content horizontally */
+        }
 
         .column img {
-        width: 100%; /* Make images fill their respective containers */
-        height: auto; /* Maintain aspect ratio */}
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+        }
+
 
         .guide {
         position: absolute;
