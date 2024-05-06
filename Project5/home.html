@@ -5,77 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOP CLEAN SAVE YOUR GREEN | HOME</title>
     <style>
-        nav {background-color: #000000;}
-    
-        a:visited {color: #c0a6e3;}      
-    
-        nav {background-color: #000000; padding: 10px; 
-        margin-bottom: 30px; width: 98%; text-align: center; padding: 10px;}
-    
-        nav{display: flex; justify-content: space-between; margin-right: 20px;}
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            margin-bottom: 30px;
+            width: 98%;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        a:visited {
+            color: #c0a6e3;
+        }
+        
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            margin-bottom: 30px;
+            width: 98%;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 20px;
+        }
         
         .hometop {
-        display: flex;
-        flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
         }
-
-        .column {
-        flex: 1; 
-        padding: 0; 
-        margin: 0; 
-        overflow: hidden; 
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        }
-
-        .column img {
-        max-width: 100%;
-        height: auto; 
-        object-fit: cover; 
-        }
-
-        .guide {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 5px;
-        font-weight: bold;
-        font-size: 24px;
-        color: #ffffff;}
         
-        .homebottom {display: flex; flex-wrap: wrap;}
-        .column {flex: 33.33%; padding: 5px; position: relative; text-align: center;}
+        .column {
+            flex: 1 1 33.33%;
+            padding: 5px;
+            position: relative;
+            text-align: center;
+        }
+        
+        .column img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        
+        .guide {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 5px;
+            font-weight: bold;
+            font-size: 24px;
+            color: #ffffff;
+        }
+        
+        .homebottom {
+            display: flex;
+            flex-wrap: wrap;
+        }
         
         h1, p {
-        text-align: center;
-        margin: 0 auto;
-        max-width: 500px; }
+            text-align: center;
+            margin: 0 auto;
+            max-width: 500px;
+        }
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 768px) {
             .column {
-                flex: 100%; 
-                padding: 5px;
+                flex: 1 1 50%;
             }
         }
-    
+
+        @media only screen and (max-width: 480px) {
+            .column {
+                flex: 1 1 100%;
+            }
+        }
     </style>
-    </head>
-    
+</head>
+
 <body>
     <div class="hometop">
         <div class="column">
-            <img src="../images/thriftshop.jpeg" alt="Thrift shop with clothes, clothes, and decor." >
+            <img src="../images/thriftshop.jpeg" alt="Thrift shop with clothes, clothes, and decor.">
         </div>
         <div class="column">
-            <img src="../images/market.jpeg" alt="Market with stands and sellers sharing their products." >
+            <img src="../images/market.jpeg" alt="Market with stands and sellers sharing their products.">
             <div class="guide">   
                 A GUIDE TO FINDING YOUR PERFECT STYLE
             </div>
         </div>
         <div class="column">
-            <img src="../images/thriftshoppt2.jpeg" alt="Thrift shop with clothes, hangers, and a warm ambiance." >
+            <img src="../images/thriftshoppt2.jpeg" alt="Thrift shop with clothes, hangers, and a warm ambiance.">
         </div>
     </div>
        
@@ -112,7 +136,7 @@
             <img src="../images/shein.jpeg" alt="shein logo">
         </div>
         <div class="column">
-            <img src="../images/textilewaste.jpeg" alt="textile waste" >
+            <img src="../images/textilewaste.jpeg" alt="textile waste">
         </div>
         <div class="column">
             <img src="../images/sweatshop.jpeg" alt="sweatshop">
