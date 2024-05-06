@@ -35,11 +35,11 @@
         
         .hometop {
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
         }
         
         .column {
-            flex: 1 1 33.33%;
+            flex: 1;
             padding: 5px;
             position: relative;
             text-align: center;
@@ -64,7 +64,7 @@
         
         .homebottom {
             display: flex;
-            flex-wrap: wrap;
+            justify-content: space-between;
         }
         
         h1, p {
@@ -74,8 +74,12 @@
         }
 
         @media only screen and (max-width: 768px) {
+            .hometop, .homebottom {
+                flex-wrap: wrap;
+            }
             .column {
-                flex: 1 1 50%;
+                flex: 1 1 45%;
+                margin-bottom: 20px;
             }
         }
 
