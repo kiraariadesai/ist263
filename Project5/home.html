@@ -15,7 +15,8 @@
         nav{display: flex; justify-content: space-between; margin-right: 20px;}
         
         .hometop {
-        display: flex;}
+        display: flex;
+        }
 
         .column {
         flex: 1; /* Let each column grow to fill the available space */
@@ -28,12 +29,10 @@
         }
 
         .column img {
-        max-width: 100%; /* Ensure images fill the entire column width */
-        max-height: 100%; /* Ensure images fill the entire column height */
+        width: 100%; /* Ensure images fill the entire column width */
+        height: 100%; /* Ensure images fill the entire column height */
+        object-fit: cover; /* Maintain aspect ratio */
         }
-
-
-
 
         .guide {
         position: absolute;
